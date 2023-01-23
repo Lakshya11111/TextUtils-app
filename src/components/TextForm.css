@@ -1,0 +1,24 @@
+.replace{
+  display: flex;
+}
+
+.replace1{
+  height: 25px;
+}
+
+.btn-rep{
+  height: 32px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .replace{
+    flex-direction: column;
+  }
+
+  .to{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
